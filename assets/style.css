@@ -1,0 +1,137 @@
+
+.body {
+    background-color: aliceblue;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    background-color: rgb(138, 116, 61);
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2em;
+    border: .13em black;
+}
+
+.nav {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding: .25em;
+    gap: 1.5em;
+}
+
+.content {
+    background-color: aliceblue;
+    display: flex;
+    text-decoration: double;
+    justify-content: center;
+    padding: 3%;
+}
+
+.content-img {
+    border-radius: 50%;
+}
+
+
+.about-header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-paragraph {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-indent: 5%;
+
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.work-text {
+    color: white;
+    text-decoration: none;
+}
+
+.work-box-1 {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1%;
+    line-height: 20px;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.work-box-2 {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: white;
+    margin: 1%;
+    text-decoration: none;
+    line-height: 20px;
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.contact {
+    display: flex;
+    color: rgb(243, 162, 40);
+    justify-content: center;
+    align-items: center;
+    padding: .25em;
+    gap: 1.75em;
+}
+
+.contact-link {
+    color: rgb(243, 162, 40);
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 640px) {
+    .header {
+        font-size: medium;
+    }
+
+    .contact {
+        display: flex;
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
